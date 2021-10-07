@@ -1,0 +1,25 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__right {
+  display: flex;
+}
+
+.footer__copy {
+  font-size: 13px;
+  color: #4a4a4a;
+}
+
+.footer__terms {
+  margin: 1rem;
+  font-size: 13px;
+  color: #4a4a4a;
+}
+
+.footer__policy {
+  margin: 1rem;
+  font-size: 13px;
+  color: #4a4a4a;
+}

@@ -1,0 +1,76 @@
+:root {
+  --primary: #f5a623;
+  --white: #ffffff;
+  --black: #000000;
+  --secondary: #ffffff;
+}
+
+.btn {
+  font-weight: 400;
+  cursor: pointer;
+  /* background-color: #F5A623; */
+}
+
+.btn_cl {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.btn_primary_solid {
+  border-radius: 4px;
+  background-color: var(--primary);
+  color: var(--white);
+  border: 1px solid #f5a623;
+}
+.btn_secondary_solid {
+  background-color: var(--secondary);
+  color: var(--black);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 12%);
+}
+
+.btn_teritary_solid {
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 80%;
+  width: 1rem;
+  height: 1rem;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 12%);
+}
+
+/* Button Sizes */
+
+.btn_small {
+  padding: 05px;
+  margin: -3px 0px -3px 20px;
+  font-size: 11px;
+}
+
+.btn_smaller {
+  font-size: 9px;
+  padding: 06px;
+}
+
+.btn_smallest {
+  font-size: 9px;
+  padding: 02px;
+  font-weight: 600;
+}
+
+.btn_large {
+  padding: 08px 55px 08px 55px;
+  /* margin: -3px 0px -3px 20px; */
+  font-size: 14px;
+}
+
+.nav-button {
+  color: #fff;
+  border: 1px solid #f5a623;
+  background-color: #f5a623;
+  border-radius: 2px;
+  padding: 05px;
+  margin: -3px 0px -3px 20px;
+  cursor: pointer;
+}
