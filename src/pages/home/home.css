@@ -19,3 +19,17 @@
   font-weight: 900;
   font-size: 25px;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .event-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    /* margin: auto; */
+  }
+
+  .home_header {
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
